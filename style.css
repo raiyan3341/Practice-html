@@ -276,28 +276,25 @@ textarea::placeholder {
     margin-top: 20px;
 }
 
-/* --- Responsive Adjustments --- */
-
-/* Medium devices (tablets, 768px and down) */
 @media (max-width: 768px) {
     .website-container {
         width: 95%;
-        height: 85vh; /* Adjust height for better fit on tablets */
-        padding: 10px 0; /* Reduce container padding */
+        height: 85vh; /* ট্যাবলেটের জন্য উচ্চতা কিছুটা কমানো */
+        padding: 10px 0; /* কন্টেইনারের প্যাডিং কমানো */
     }
     .page {
-        padding: 30px; /* Adjust page padding */
+        padding: 30px; /* পেজের প্যাডিং অ্যাডজাস্ট করা */
     }
     h1 {
-        font-size: 2.8em; /* Slightly smaller for tablets */
+        font-size: 2.8em; /* ট্যাবলেটের জন্য ফন্ট সাইজ কমানো */
         margin-bottom: 20px;
     }
     h2 {
-        font-size: 2.2em; /* Slightly smaller for tablets */
+        font-size: 2.2em; /* ট্যাবলেটের জন্য ফন্ট সাইজ কমানো */
         margin-bottom: 18px;
     }
     p {
-        font-size: 1.05em; /* Slightly smaller for tablets */
+        font-size: 1.05em; /* ট্যাবলেটের জন্য ফন্ট সাইজ কমানো */
         line-height: 1.6;
         margin-bottom: 25px;
     }
@@ -315,7 +312,7 @@ textarea::placeholder {
         font-size: 1.15em;
     }
     textarea {
-        height: 150px; /* Shorter textarea */
+        height: 150px; /* টেক্সট এরিয়া ছোট করা */
         margin-top: 20px;
     }
     .small-prev {
@@ -323,65 +320,65 @@ textarea::placeholder {
     }
 }
 
-/* Small devices (phones, 480px and down, targets 460px and smaller) */
+/* 480px এবং তার নিচের ডিভাইস (সাধারণত স্মার্টফোন, তোমার 460px এর জন্য কাজ করবে) */
 @media (max-width: 480px) {
     body {
-        /* Ensure background gradients scale nicely on small screens */
+        /* ব্যাকগ্রাউন্ড গ্রাডিয়েন্ট মোবাইলে ঠিকভাবে স্কেল করার জন্য */
         background-attachment: fixed;
     }
     .website-container {
-        width: 98%; /* Almost full width */
-        height: 90vh; /* Allow more vertical space */
-        min-height: 500px; /* Ensure a minimum height for very small devices */
-        border-radius: 15px; /* Slightly smaller border radius */
+        width: 98%; /* প্রায় পুরো প্রস্থ ব্যবহার করা */
+        height: 90vh; /* উল্লম্ব স্থান আরও বাড়ানো */
+        min-height: 500px; /* খুব ছোট ডিভাইসের জন্য ন্যূনতম উচ্চতা */
+        border-radius: 15px; /* বর্ডার রেডিয়াস কিছুটা কমানো */
     }
     .page {
-        padding: 20px; /* Further reduce page padding */
-        justify-content: flex-start; /* Start content from top on small screens */
-        padding-top: 30px; /* Add some top padding */
+        padding: 20px; /* পেজের প্যাডিং আরও কমানো */
+        justify-content: flex-start; /* কন্টেন্ট উপর থেকে শুরু হবে */
+        padding-top: 30px; /* উপরের দিকে কিছুটা প্যাডিং যোগ করা */
     }
     .page-content {
-        max-width: 100%; /* Use full available width */
+        max-width: 100%; /* পুরো প্রস্থ ব্যবহার করা */
     }
 
     h1 {
-        font-size: 2.2em; /* Smaller main title */
+        font-size: 2.2em; /* মূল টাইটেল ছোট করা */
         margin-bottom: 15px;
     }
     h2 {
-        font-size: 1.8em; /* Smaller section titles */
+        font-size: 1.8em; /* সেকশন টাইটেল ছোট করা */
         margin-bottom: 15px;
     }
     p {
-        font-size: 0.95em; /* Smaller paragraph text for readability */
+        font-size: 0.95em; /* প্যারাগ্রাফ টেক্সট ছোট করা যাতে সহজে পড়া যায় */
         line-height: 1.5;
         margin-bottom: 20px;
     }
 
     .navigate-btn, .impact-btn, .submit-btn {
-        width: 90%; /* Buttons take almost full width */
-        margin: 5px auto; /* Center buttons and reduce vertical margin */
-        padding: 12px 20px; /* Smaller padding */
-        font-size: 0.95em; /* Smaller font size for buttons */
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); /* Smaller shadow */
+        width: 90%; /* বাটনগুলো প্রায় পুরো প্রস্থ নেবে */
+        margin: 5px auto; /* বাটনগুলো মাঝখানে আনা এবং উল্লম্ব মার্জিন কমানো */
+        padding: 12px 20px; /* প্যাডিং কমানো */
+        font-size: 0.95em; /* বাটনের ফন্ট সাইজ কমানো */
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); /* শ্যাডো ছোট করা */
     }
 
     .button-group, .final-question-buttons {
-        flex-direction: column; /* Stack buttons vertically */
-        gap: 10px; /* Reduce gap between stacked buttons */
+        flex-direction: column; /* বাটনগুলো উল্লম্বভাবে স্ট্যাক করা */
+        gap: 10px; /* স্ট্যাক করা বাটনগুলোর মধ্যে ফাঁকা স্থান কমানো */
         margin-top: 20px;
     }
 
     .impact-btn {
-        padding: 14px 25px; /* Adjust padding for impact buttons */
-        font-size: 1.1em; /* Slightly larger impact button text */
+        padding: 14px 25px; /* ইমপ্যাক্ট বাটনের প্যাডিং অ্যাডজাস্ট করা */
+        font-size: 1.1em; /* ইমপ্যাক্ট বাটনের টেক্সট কিছুটা বড় রাখা */
     }
 
     textarea {
-        width: 95%; /* Make textarea wider */
-        height: 100px; /* Significantly reduce textarea height */
-        padding: 15px; /* Reduce padding */
-        font-size: 0.95em; /* Adjust font size */
+        width: 95%; /* টেক্সট এরিয়া চওড়া করা */
+        height: 100px; /* টেক্সট এরিয়ার উচ্চতা উল্লেখযোগ্যভাবে কমানো */
+        padding: 15px; /* প্যাডিং কমানো */
+        font-size: 0.95em; /* ফন্ট সাইজ অ্যাডজাস্ট করা */
         margin-top: 15px;
     }
 
@@ -391,7 +388,7 @@ textarea::placeholder {
         font-size: 0.8em;
     }
 
-    /* Adjust background animation for mobile to be less intrusive */
+    /* মোবাইলের জন্য ব্যাকগ্রাউন্ড অ্যানিমেশন কম আকর্ষণীয় করা */
     body::before, body::after {
         width: 150px;
         height: 150px;
@@ -405,7 +402,7 @@ textarea::placeholder {
     }
 }
 
-/* Specific adjustments for very small phones (e.g., iPhone 5/SE in portrait) if needed */
+/* খুব ছোট ফোনের জন্য নির্দিষ্ট অ্যাডজাস্টমেন্ট (যেমন iPhone 5/SE পোর্ট্রেট মোড) */
 @media (max-width: 375px) {
     h1 {
         font-size: 1.8em;
