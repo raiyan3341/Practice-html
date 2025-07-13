@@ -388,7 +388,7 @@ textarea::placeholder {
         font-size: 0.8em;
     }
 
-    /* মোবাইলের জন্য ব্যাকগ্রাউন্ড অ্যানিমেশন কম আকর্ষণীয় করা */
+
     body::before, body::after {
         width: 150px;
         height: 150px;
@@ -402,7 +402,7 @@ textarea::placeholder {
     }
 }
 
-/* খুব ছোট ফোনের জন্য নির্দিষ্ট অ্যাডজাস্টমেন্ট (যেমন iPhone 5/SE পোর্ট্রেট মোড) */
+
 @media (max-width: 375px) {
     h1 {
         font-size: 1.8em;
