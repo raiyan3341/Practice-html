@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Sincere Apology</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="website-container">
+        <section id="page1" class="page active">
+            <div class="page-content">
+                <h1>A Sincere Apology</h1>
+                <p>Dear <span class="maam">"MY MAM"</span> </p>
+                <p>I know my actions have caused you pain, and for that, I am truly sorry. I hope you'll grant me a few moments to explain.</p>
+                <button class="navigate-btn next-btn">Continue</button>
+            </div>
+        </section>
+
+        <section id="page2" class="page">
+            <div class="page-content">
+                <h2>Regarding [My wired Behavour]</h2>
+                <p>First of all Ami bujte parini je tmi amake ignore koro nai odin. but ami eta niye ulta palta vebe bosechi. ashole prochender manush thik moto response na korle mone hoy keno jani she dure sore jacche amar theke .. tai er jonno ei paglami ta kora.Pls dont mind.</p>
+                <div class="button-group">
+                    <button class="navigate-btn prev-btn">Back</button>
+                    <button class="navigate-btn next-btn">Next </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="page3" class="page">
+            <div class="page-content">
+                <h2>My Understanding & Reflection</h2>
+                <p>Ashole pore ami bisoy ta bujte pari. oi din ektu matha ta kharap chilo. tmi to janoi ami ektu sensitive person. tobe tmr kichu kothay amar khrp lage tai evabe reaction kore chilam.but pore bisoy ta bujte pari eta chotto ekta reson. so ei bisoy amra ar raag hoye pore na thaki 🥹🥹</p>
+                <div class="button-group">
+                    <button class="navigate-btn prev-btn">Back</button>
+                    <button class="navigate-btn next-btn">What I'll Do Differently</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="page4" class="page">
+            <div class="page-content">
+                <h2>Moving Forward: A Promise</h2>
+                <p>I am committed to making things right. Dekho amra kintu emnei onk valo fnd. emon ki sobay jane amader bonding er bisoy. ami chai na ei choto reason er jonno fndship nosto hok.. feelings ja gese gse oita niye hoyto vabte hbe na kopale jeta ache oitai hbe.. tobe tar age amar fndship 1st priority.. </p>
+                <div class="button-group">
+                    <button class="navigate-btn prev-btn">Back</button>
+                    <button class="navigate-btn next-btn">One Last Question</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="lastPage" class="page">
+            <div class="page-content">
+                <h2>Are you still mad at me?</h2>
+                <div class="final-question-buttons">
+                    <button id="yesBtn" class="impact-btn">Yes, I am</button>
+                    <button id="noBtn" class="impact-btn">No, I'm not</button>
+                </div>
+                <button class="navigate-btn prev-btn small-prev">Go Back</button>
+            </div>
+        </section>
+
+        <section id="noPath" class="page feedback-page">
+            <div class="page-content">
+                <h2>Oh! I Knew It...</h2>
+                <p>You're still mad, aren't you? And that's okay. Please tell me why. Your honesty is the only way I can truly understand and grow from this.</p>
+                <form id="noForm" action="https://formsubmit.co/rayanbin13@gmail.com" method="POST" target="_blank">
+                    <textarea name="no_reason" placeholder="What's still bothering you?"></textarea>
+                    <input type="hidden" name="_subject" value="Apology Website Feedback: Still Mad (No)">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html"> 
+                    <button type="submit" class="submit-btn">Send My Thoughts</button>
+                </form>
+                <button class="navigate-btn back-to-last-page-btn small-prev">Back to Question</button>
+            </div>
+        </section>
+
+        <section id="yesPath" class="page feedback-page">
+            <div class="page-content">
+                <h2>Thank you for your honesty.</h2>
+                <p>It takes courage to express your feelings. Please share what's on your mind and why you're still feeling upset. Your words matter to me.</p>
+                <form id="yesForm" action="https://formsubmit.co/rayanbin13@gmail.com" method="POST" target="_blank">
+                    <textarea name="yes_reason" placeholder="What's making you mad?"></textarea>
+                    <input type="hidden" name="_subject" value="Apology Website Feedback: Still Mad (Yes)">
+                    <input type="hidden" name="_next" value="http://127.00.1:5500/thankyou.html"> 
+                    <button type="submit" class="submit-btn">Send My Thoughts</button>
+                </form>
+                <button class="navigate-btn back-to-last-page-btn small-prev">Back to Question</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* This internal style is just for this page's specific layout */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #5B48B9 0%, #9B5DE5 100%); /* Matching your main site's background */
+            color: #f4f4f4;
+            text-align: center;
+            overflow: hidden;
+        }
+        .thankyou-container {
+            background-color: rgba(255, 255, 255, 0.15);
+            border-radius: 25px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            width: 90%;
+            max-width: 600px;
+            padding: 50px;
+            box-sizing: border-box;
+            animation: fadeInScaleUp 0.8s ease-out forwards;
+        }
+        .thankyou-container h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            color: #FEE440;
+            margin-bottom: 20px;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .thankyou-container p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .thankyou-container .return-link {
+            display: inline-block;
+            background-color: #F15BB5; /* Pink button */
+            color: #f4f4f4;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none; /* remove underline */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .thankyou-container .return-link:hover {
+            background-color: #ff68a5;
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        @keyframes fadeInScaleUp {
+            from {
+                opacity: 0;
+                transform: scale(0.9) translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="thankyou-container">
+        <h1>Thank You!</h1>
+        <p>Your message has been successfully sent. I truly appreciate you taking the time to share your feelings.</p>
+        <p>I'll get back to you as soon as possible.</p>
+        <a href="index.html" class="return-link">Return to Apology Site</a>
+    </div>
+</body>
+</html>
